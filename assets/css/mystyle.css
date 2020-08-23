@@ -1,0 +1,150 @@
+.bs-btn {
+    padding: 10px 10px;
+    position: relative;
+    -webkit-transition: 0.2s all ease-in-out !important;
+    -moz-transition: 0.2s all ease-in-out !important;
+    -o-transition: 0.2s all ease-in-out !important;
+    transition: 0.2s all ease-in-out !important;
+    top: 0;
+}
+
+.bs-btn:hover {
+    -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    -moz-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    -o-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    top: -2px;
+}
+
+.bs-box {
+    position: relative;
+    top: 30px;
+}
+
+.bs-card {
+    -webkit-box-shadow: 3px 3px 10px black !important;
+    -moz-box-shadow: 3px 3px 10px black !important;
+    -o-box-shadow: 3px 3px 10px black !important;
+    box-shadow: 3px 3px 10px black !important;
+}
+
+.bs-mt-3 {
+    margin-top: 10px;
+}
+
+#mapel .card {
+    width: 95% !important;
+    transition: .5s;
+}
+
+#mapel a:hover .card {
+    -webkit-transform: scale(1.075) !important;
+    -moz-transform: scale(1.075) !important;
+    -o-transform: scale(1.075) !important;
+    transform: scale(1.075) !important;
+}
+
+#absensi .card {
+    width: 95% !important;
+    transition: .5s;
+}
+
+#absensi a:hover .card {
+    -webkit-transform: scale(1.075) !important;
+    -moz-transform: scale(1.075) !important;
+    -o-transform: scale(1.075) !important;
+    transform: scale(1.075) !important;
+}
+
+a .card {
+    width: 95% !important;
+    transition: .5s;
+}
+
+a:hover .card {
+    -webkit-transform: scale(1.075) !important;
+    -moz-transform: scale(1.075) !important;
+    -o-transform: scale(1.075) !important;
+    transform: scale(1.075) !important;
+}
+
+.bs-mapel {
+    overflow: hidden !important;
+    position: relative;
+}
+
+.bs-mapel h2 {
+    text-align: center !important;
+    color: white !important;
+    text-shadow: 2px 2px 5px;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bs-absensi h2 {
+    text-align: center !important;
+    color: white !important;
+    text-shadow: 2px 2px 5px;
+    font-size: 28px !important;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bs-mapel h4 {
+    text-align: center !important;
+    color: white !important;
+    text-shadow: 2px 2px 5px;
+    text-transform: uppercase;
+    position: absolute !important;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bs-profile-header {
+    padding: 60px 0 !important;
+}
+
+.bs-profile-body {
+    margin-top: -105px;
+}
+
+.bs-profile-footer {
+    margin-top: 20px;
+}
+
+.dt-button {
+    background-color: #03A9F4 !important;
+}
+
+.bs-regis-card {
+    text-align: center !important;
+}
+
+.bs-btn-regis {
+    width: 100px !important;
+    margin: 0px 10px !important;
+}
+
+input[type="radio"]:not(:checked), input[type="radio"]:checked {
+    position: relative !important;
+    top: 2px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+}
